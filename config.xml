@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="propert_inj.Address" id="1"  >
+    <property name="name" value="sharan"></property>
+    <property name="village" value="Gavigat"></property>
+    <property name="taluq" value="Manvi"></property>
+    <property name="district" value="Raichur"></property>
+    </bean>
+    
+    <bean class="propert_inj.Address" id="2"  >
+    <property name="name" value="sharan"></property>
+    <property name="village" value="Gavigat"></property>
+    <property name="taluq" value="Manvi"></property>
+    <property name="district" value="Raichur"></property>
+    </bean>
+    
+    <bean class="propert_inj.Address" id="3"  >
+    <property name="name" value="sharan"></property>
+    <property name="village" value="Gavigat"></property>
+    <property name="taluq" value="Manvi"></property>
+    <property name="district" value="Raichur"></property>
+    </bean>
+    
+    <bean class="propert_inj.Address" id="4"  >
+    <property name="name" value="sharan"></property>
+    <property name="village" value="Gavigat"></property>
+    <property name="taluq" value="Manvi"></property>
+    <property name="district" value="Raichur"></property>
+    </bean>
+    
+    <bean class="propert_inj.Address" id="5"  >
+    <property name="name" value="sharan"></property>
+    <property name="village" value="Gavigat"></property>
+    <property name="taluq" value="Manvi"></property>
+    <property name="district" value="Raichur"></property>
+    </bean>
+    
+    <bean class="propert_inj.Address" id="6"  >
+    <property name="name" value="sharan"></property>
+    <property name="village" value="Gavigat"></property>
+    <property name="taluq" value="Manvi"></property>
+    <property name="district" value="Raichur"></property>
+    </bean>
+    <!-- Example for Construction injection -->
+    <bean class="construction_inj.Address" id="construct">
+    <constructor-arg>
+    <value>sharan</value>
+    </constructor-arg>
+     <constructor-arg>
+    <value>Gavigat</value>
+    </constructor-arg>
+     <constructor-arg>
+    <value>Manvi</value>
+    </constructor-arg>
+     <constructor-arg>
+    <value>Raichur</value>
+    </constructor-arg>
+    
+    </bean>
+    
+    
+    
+    
+    
+    
+    
+    
+    </beans>
